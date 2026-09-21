@@ -1,0 +1,10 @@
+.build/
+build/
+.swiftpm/
+*.xcodeproj/
+xcuserdata/
+.DS_Store
+
+# Licensed typefaces: never commit them. Put your own in Resources/Fonts locally.
+Resources/Fonts/*.otf
+Resources/Fonts/*.ttf

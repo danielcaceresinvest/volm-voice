@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>CFBundleIdentifier</key>
+    <string>studio.volm.voice</string>
+    <key>CFBundleName</key>
+    <string>VOLM Voice</string>
+    <key>CFBundleDisplayName</key>
+    <string>VOLM Voice</string>
+    <key>CFBundleExecutable</key>
+    <string>VOLM Voice</string>
+    <key>CFBundleIconFile</key>
+    <string>AppIcon</string>
+    <key>CFBundlePackageType</key>
+    <string>APPL</string>
+    <key>CFBundleShortVersionString</key>
+    <string>0.2.0</string>
+    <key>CFBundleVersion</key>
+    <string>1</string>
+    <key>LSMinimumSystemVersion</key>
+    <string>26.0</string>
+    <key>CFBundleURLTypes</key>
+    <array>
+        <dict>
+            <key>CFBundleURLName</key>
+            <string>studio.volm.voice</string>
+            <key>CFBundleURLSchemes</key>
+            <array>
+                <string>volm-voice</string>
+            </array>
+        </dict>
+    </array>
+    <key>LSUIElement</key>
+    <true/>
+    <key>NSHighResolutionCapable</key>
+    <true/>
+    <key>NSMicrophoneUsageDescription</key>
+    <string>Mónica te escucha cuando dices su nombre. El audio se procesa en tu Mac.</string>
+    <key>NSSpeechRecognitionUsageDescription</key>
+    <string>Para entender lo que le dices a Mónica. El reconocimiento se hace en tu Mac.</string>
+</dict>
+</plist>
